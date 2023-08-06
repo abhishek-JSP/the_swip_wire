@@ -1,0 +1,139 @@
+footer {
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    width: 79.6%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.foot_start {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    /* border: 1px solid black; */
+    width: 75%;
+    padding: 50px 10px 80px;
+
+}
+
+.subs_input {
+    width: 25%;
+    padding: 15px;
+    background-color: rgb(36, 36, 119);
+    color: black;
+    border-radius: 5px;
+    border: .2px solid rgb(17, 17, 62);
+    /* margin: 0 20px 0 0; */
+    margin-left: 10px;
+
+}
+
+.subs_input::placeholder {
+    color: rgb(221, 219, 219);
+    font-size: 15px;
+}
+
+.subs_btn {
+    width: 40%;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.foot_end {
+    /* border: 1px solid red; */
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 120px 0 80px;
+    margin-top: 50px;
+}
+
+.first {
+    /* border: 1px solid black; */
+    padding: 20px 0;
+    margin-top: -100px;
+
+}
+
+.follow {
+    color: rgb(198, 194, 194);
+    font-weight: bold;
+}
+
+.insta {
+    /* border: 1px solid white; */
+    padding: 10px;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    background: rgb(188, 37, 37);
+}
+
+.fb {
+    /* border: 1px solid white; */
+    padding: 8px 14px;
+    margin: 10px;
+    font-size: 35px;
+    background-color: rgb(71, 71, 208);
+}
+
+.twit {
+    /* border: 1px solid white; */
+    padding: 8px;
+    font-size: 35px;
+    background-color: rgb(85, 180, 217);
+}
+
+.p_last {
+    color: black;
+}
+
+.foot_h3 {
+    color: black;
+    letter-spacing: 3px;
+    font-size: 15px;
+
+}
+
+.p_subs {
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.second {
+    text-align: left;
+    /* border: 1px solid white; */
+
+}
+
+.left_side_footer {
+    /* border: 1px solid black; */
+    width: 70%;
+
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        width: 100%;
+        background-color: red;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
